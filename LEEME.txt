@@ -1,0 +1,36 @@
+ECLIPSE AI — Sitio web
+
+CONTENIDO
+- index.html: página principal
+- styles.css: diseño y estilos adaptables a móvil
+- script.js: año automático y enlaces de descarga
+- files/: carpeta para los archivos descargables
+
+ACTIVAR DESCARGAS
+1. Consigue los archivos reales y probados de cada versión.
+2. Coloca estos archivos con estos nombres exactos:
+   files/ECLIPSE-1.0.zip
+   files/ECLIPSE-2.0.zip
+3. Abre index.html y busca los botones de descarga. En cada versión cambia:
+   class="download-button unavailable"
+   por:
+   class="download-button"
+   y elimina aria-disabled="true".
+4. Publica de nuevo el sitio.
+
+IMPORTANTE
+Este paquete contiene la página web, no los programas ECLIPSE 1.0 ni 2.0.
+No inventes instaladores: usa los ZIP reales de tus aplicaciones. Comprueba que
+los archivos se abren y que no contienen datos personales antes de publicarlos.
+
+PUBLICAR GRATIS CON GITHUB PAGES
+1. Crea una cuenta en https://github.com si todavía no tienes.
+2. Crea un repositorio público llamado eclipse-ai.
+3. Sube index.html, styles.css, script.js y la carpeta files.
+4. En el repositorio entra a Settings > Pages.
+5. En Build and deployment elige Deploy from a branch.
+6. Selecciona la rama main y la carpeta /(root), guarda.
+7. GitHub te mostrará la dirección pública de tu página cuando termine la publicación.
+
+También puedes publicar la carpeta con Netlify Drop: https://app.netlify.com/drop
+La disponibilidad y los límites de los servicios gratuitos pueden cambiar.
